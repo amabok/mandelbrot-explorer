@@ -1,0 +1,15 @@
+{
+  "name": "mandelbrot-explorer",
+  "version": "1.0.0",
+  "description": "A simple HTML5 + vanilla JS mandelbrot manipulation workbench to experiment with and showcase browser modules, canvas and workers features.",
+  "main": "mandelbrot-explorer.html",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint \"**/*.{js,jsx}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "serve": "^12.0.1"
+  }
+}
