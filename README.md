@@ -1,9 +1,7 @@
 # Mandelbrot Explorer 
-A simple HTML5 + vanilla JS mandelbrot manipulation workbench to experiment with and showcase browser modules, canvas and workers features.
+A simple HTML5 + vanilla JS mandelbrot manipulation workbench to experiment with and showcase browser modules + canvas (and workers features in the future).
 
-[Mandelbrot no zoom HSL](./images/mandelbrot_hsl.png)
-
-[Mandelbrot no zoom Greyscale](./images/mandelbrot_grey_scale.png)
+<img src="images/mandelbrot_hsl.png" alt="Mandelbrot no zoom HSL"/> <img src="images/mandelbrot_grey_scale.png" alt="Mandelbrot no zoom Greyscale"/> 
 
 ## Requirements
 - NodeJs version >= 14.16.0
@@ -11,13 +9,11 @@ A simple HTML5 + vanilla JS mandelbrot manipulation workbench to experiment with
 ## Rationale
 This simple application was born out of curiosity from my girlfriend on how complex would be to do the programming - or simply how to instruct the computer to do the spectacular visualizations you can see below and that are screenshots from this application - of the algorithm behind the Mandelbrot Set and associated visualization from scratch.
 
-[UI with Mandelbrot zoom details HSL](./images/control_panel_zoom_detail.png)
-
-[UI with Mandelbrot zoom details greyscale](./images/control_panel_zoom_detail_gs.png)
+<img src="images/control_panel_zoom_detail.png" alt="UI with Mandelbrot zoom details HSL" width="45%" /> <img src="images/control_panel_zoom_detail_gs.png" alt="UI with Mandelbrot zoom details greyscale" width="45%" />
 
 Besides some brush up on basic Complex/Imaginary number operations math 'magic' most if not all of the algorithm is based on this quite nice and pragmatic Python tutorial: https://www.codingame.com/playgrounds/2358/how-to-plot-the-mandelbrot-set/adding-some-colors
 
-## Tech and implementation
+## Tech stack and implementation
 Very simple and pragmatic:
 - Plain Vanilla Javascript following the Module organisation
 - A couple of modules encapsulating and separating the different concerns (ui/presentation, complex numbers, mandelbrot calculations, graphical computation)
