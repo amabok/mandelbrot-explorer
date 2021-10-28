@@ -52,6 +52,6 @@ Very simple and pragmatic:
 - No tests yet
 
 # Run
-- First start a static content webserver to serve the page content by running: ```npx serve``
+- First start a static content webserver to serve the page content by running: ```npx serve```
 - Open your browser of choice at http://localhost:5000/mandelbrot-explorer.html
 - Due to project being JS Module based the html file needs to be served from a Web server and won't run from your local file system in your preferred browser at least without any command-line or configuration magic.
